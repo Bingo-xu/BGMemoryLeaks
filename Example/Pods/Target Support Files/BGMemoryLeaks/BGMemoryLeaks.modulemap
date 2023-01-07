@@ -1,0 +1,6 @@
+framework module BGMemoryLeaks {
+  umbrella header "BGMemoryLeaks-umbrella.h"
+
+  export *
+  module * { export * }
+}

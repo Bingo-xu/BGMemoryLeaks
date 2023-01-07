@@ -1,0 +1,28 @@
+{
+  "name": "BGMemoryLeaks",
+  "version": "0.1.0",
+  "summary": "A short description of BGMemoryLeaks.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bingoxu/BGMemoryLeaks",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bingoxu": "bingoxu@yeahka.com"
+  },
+  "source": {
+    "git": "https://github.com/bingoxu/BGMemoryLeaks.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "BGMemoryLeaks/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "BGMemoryLeaks/Classes/Core/*.{h,m}"
+    }
+  ]
+}

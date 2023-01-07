@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'BGMemoryLeaks_Example' do
+  pod 'BGMemoryLeaks', :path => '../'
+  pod 'FBRetainCycleDetector', :git => 'https://github.com/facebook/FBRetainCycleDetector.git', :branch => 'main', :configurations => ['Debug']
+  
+  target 'BGMemoryLeaks_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
